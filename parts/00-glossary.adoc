@@ -1,0 +1,5 @@
+== Glossary
+
+Term 1:: Description
+Term 2:: Description
+

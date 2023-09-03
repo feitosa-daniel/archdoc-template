@@ -1,0 +1,34 @@
+[#adr1-short]
+=== Title
+
+==== Change Log
+
+|===
+| Date | Status
+| 2023-09-04 | proposed
+| 2023-09-04 | superseded by <<adr3-new>>
+|===
+
+What is the status, such as proposed, accepted, rejected, deprecated, superseded, etc.?
+
+==== Context
+
+* Use case/Story: 
+
+What is the *issue* that we're seeing that is motivating this decision or change?
+
+==== Considerations
+
+What are the alternatives? What are the forces?
+
+==== Decision
+
+What is the change that we're proposing and/or doing?
+
+==== Consequences
+
+What becomes easier or more difficult to do because of this change?
+
+==== Related Decisions
+
+What other decisions are affected by or influence this decision? Elaborate.

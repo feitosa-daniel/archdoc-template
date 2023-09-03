@@ -1,0 +1,16 @@
+== Software Architecture
+
+=== Software Architecture Design
+
+Attribute-Driven design.
+
+=== Architectural Views
+
+E.g., 4+1, including patterns and tactics
+
+=== Components
+
+Including their functionality, interfaces and interactions.
+
+=== Decision Views
+

@@ -1,0 +1,6 @@
+== Authors
+
+|===
+| Acronym | Name | E- Mail |
+| jd | John Doe | john.doe@email.org |
+|===

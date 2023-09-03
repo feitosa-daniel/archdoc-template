@@ -1,0 +1,60 @@
+= Software Architecture Description
+:title-page:
+:toc:
+:toc-placement!:
+:xrefstyle: short
+:imagesdir: ./images/
+:revdate: 2023-09-04
+:revnumber: 1.0
+
+// Delete asciidoc example chapter
+<<<
+include::parts/00-asciidoc_examples.adoc[]
+
+<<<
+include::authors.adoc[]
+include::changelog.adoc[]
+
+<<<
+toc::[]
+
+<<<
+include::parts/00-glossary.adoc[]
+
+:sectnums:
+
+<<<
+include::parts/01-system_context.adoc[]
+
+<<<
+include::parts/02-business_information.adoc[]
+
+<<<
+include::parts/03-requirements.adoc[]
+
+<<<
+include::parts/04-analysis.adoc[]
+
+<<<
+include::parts/05-system_architecture.adoc[]
+
+<<<
+include::parts/06-hardware_architecture.adoc[]
+
+<<<
+include::parts/07-software_architecture.adoc[]
+
+<<<
+include::parts/08-architecture_evaluation.adoc[]
+
+<<<
+include::parts/09-system_evolution.adoc[]
+
+:sectnums!:
+
+<<<
+== Architecture Decision Records 
+include::adrs/adr01.adoc[]
+
+<<<
+include::parts/references.adoc[]

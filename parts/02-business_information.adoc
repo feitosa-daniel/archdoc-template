@@ -1,0 +1,26 @@
+== Business Information
+
+=== Business Vision
+
+Description of the envisaged business opportunities and unique selling points.
+
+Advantages and disadvantages with respect to the current situation.
+
+==== Advantages and Disadvantages
+
+==== Business Rationale
+
+=== Product/Service Description
+
+And its evolution over time.
+
+=== Target Audience
+
+=== Business/Domain Model
+
+=== Roadmaps
+
+=== Financial Model
+
+=== Competitors
+

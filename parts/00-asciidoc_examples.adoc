@@ -1,0 +1,114 @@
+== AsciiDoc Syntax Examples
+
+*AsciiDoc* sits right in between Markdown and LatTeX:
+
+* it is human-readable, like Markdown;
+* it can be rendered on GitHub, like Markdown;
+* it is more versatile than (vanilla) Markdown and is still simpler (but less powerful) than LaTeX;
+* it is more PDF-aware than Markdown, e.g., with article and book document types.
+
+For such reasons, AsciiDoc is a great language for technical writing. It works well for books (see the https://github.com/progit/progit2[Pro Git] book), and is great for project documentation (see the https://github.com/spring-projects/spring-framework[Spring framework] repository).
+
+TIP: It should be also great to write your architecture document!
+
+So, here is a quick guide for some handy basic syntax. However, if this is not enough the https://docs.asciidoctor.org/asciidoc/latest/[official AsciiDoc documentation] offers much more!
+
+=== Section
+
+==== Subsection
+
+===== Subsubsection
+
+=== Text Decoration
+
+This is a paragraph, with *bold text*, _italicized text_, `monospaced text`, and even #highlighted text#.
+
+=== Lists
+
+Bullets
+
+* Item 1
+* Item 2
+
+Numbered
+
+. Item 1
+. Item 2
+
+Definition
+
+[horizontal]
+Term 1:: Definition 1
+Term 2:: Definition 2
+
+=== Quoting
+
+[quote, Author, Source]
+____
+This is a quote.
+____
+
+=== Admonitions
+
+NOTE: This is a note.
+
+WARNING: This is a warning.
+
+
+=== Code Blocks
+
+[source,python]
+----
+print("Hello, World!")
+----
+
+=== Tables
+
+.This is the table caption
+[#tab-label]
+|===
+| Header 1 | Header 2
+| Cell 1-1 | Cell 1-2
+| Cell 2-1 | Cell 2-2
+|===
+
+=== Images
+
+The root path to all images (even from within section file) is defined in the All images 
+
+.This is the figure caption
+[#img-label]
+image::example_image.png[alt text,200]
+
+=== Links, References, Bibliography and Footnotes
+
+*Cross-referencing* looks like this:
+
+* for sections - xref:_system_context[].
+* for tables and figures - xref:tab-label[], xref:img-label[]
+
+Create *external links* (e.g., URLs) with an autolink (http://example.com) or a http://example.com[text replacement].
+
+*Bibliography* must be defined in a separate file (`references.adoc`). Once defined, you cite them like this <<smith23>>. For the numbering to work, make sure to give both label and number:
+
+----
+- [[[smith23,1]]] Smith, John....
+----
+
+*Footnotes* can be done lie this.footnote:[This is the footnote.] But there is a limitation for PDFs, they currently only appear as endnotes (i.e., together with the bibliography). So you may want to avoid them and just create a bibliographic entry.
+
+=== Comments
+
+----
+// This is a single-line comment.
+
+////
+This is a block comment.
+////
+----
+
+// This is not rendered.
+
+////
+This is also not rendered.
+////

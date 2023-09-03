@@ -1,0 +1,11 @@
+== Analysis
+
+=== Assumptions
+
+=== Technology Roadmaps
+
+=== Design Alternatives
+
+Important design alternatives, their advantages/disadvantages, their feasibility. 
+
+The major design decisions must be documented together with their rationale. 

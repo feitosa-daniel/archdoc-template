@@ -1,0 +1,5 @@
+[bibliography]
+== References
+
+- [[[smith23,1]]] Smith, John. "Title of the Article." Journal Name, vol. 1, no. 1, 2023.
+- [[[johnson23,2]]] Johnson, Emily. "Another Title." Another Journal, vol. 2, no. 1, 2023.

@@ -1,0 +1,17 @@
+= Architecture Document
+
+This repository contains an https://docs.asciidoctor.org/asciidoc[AsciiDoc] template for a typical architecture document. This template is tailored for the course https://ocasys.rug.nl/current/catalog/course/WMCS004-05[Software Architecture (WMCS004-05)] of the University of Groningen.
+
+== Generating a PDF
+
+In short, install your preferred AsciiDoc PDF processor and compile `main.adoc`.
+
+If you are using https://docs.asciidoctor.org/pdf-converter/latest/install/[asciidoctor-pdf]:
+
+----
+asciidoctor-pdf main.adoc
+----
+
+== License
+
+Unless otherwise noted, the content in this repository is licensed under a https://creativecommons.org/publicdomain/zero/1.0/[Creative Commons Zero License], also known as Public Domain Dedication. That said, attribution is appreciated.

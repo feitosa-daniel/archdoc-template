@@ -1,0 +1,4 @@
+== System Context
+
+Description of the position of the envisaged system in its environment.
+
