@@ -3,6 +3,6 @@
 // REMEMBER: update 'revdate' and 'revnumber' in main.adoc
 
 |===
-| Date | Revision | Author | Description | 
-| 2023-09-03 | 1.0 | jd | Initial Draft |
+| Date | Revision | Author | Description
+| 2023-09-03 | 1.0 | jd | Initial Draft
 |===
