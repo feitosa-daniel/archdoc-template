@@ -1,0 +1,9 @@
+== Time Tracking
+
+=== Week 1
+
+|===
+| Person | Task | Hours
+| jd | Write section X | 1
+| jd | Revise section X | 0.5
+|===
